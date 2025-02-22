@@ -8,7 +8,7 @@ def home():
     # Передача переменных в шаблон
     return render_template(
         'index.html',
-        name="Алексей",
+        name="mainpage",
         date=datetime.now().strftime("%d.%m.%Y")
     )
 
